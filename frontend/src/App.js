@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   componentDidMount = async () => {
-    const response = await axios.get('http://localhost:8000/');
+    const response = await axios.get('https://quadb-assignment-qoed.onrender.com/');
     const data = response.data;
     this.setState({ componentdata: Object.values(data) });
   };
