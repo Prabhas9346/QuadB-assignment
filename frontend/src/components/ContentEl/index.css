@@ -1,0 +1,164 @@
+.matterBox1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5vw;
+
+}
+.fontText1{
+    color: #3dc6c1;
+    font-size: 3.5VW;
+    font-weight: 600;
+}
+.average-header-subHeading, .average-header-subtext {
+    font-weight: 400;
+   
+    opacity: .45;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.average-header-subtext{
+    font-size: 1.5vw;
+
+}
+
+.matterBoxSub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.fontText2{
+  
+    font-size: 6vw;
+    font-weight: 500;
+}
+.custom-table {
+    width: 95vw;
+    border-collapse: collapse;
+   
+    font-size: 1.8vw;
+    text-align: center;
+  
+    border-collapse: separate;
+    border-spacing: 0 1vw;
+    margin: auto;
+    
+    
+}
+
+.custom-table thead tr {
+    background-color: transparent;
+    
+    text-align: center;
+    font-weight: bold;
+    font-weight: 400;
+  
+    opacity: .45;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.custom-table th, .custom-table td {
+    padding: 1vw 1vw;
+    
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    
+}
+
+.custom-table tbody tr {
+    background-color: #2e3241;
+    margin: 1vw;
+}
+
+
+.custom-table a {
+    text-decoration: none;
+  
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    
+}
+
+.custom-table img.exchange-logo {
+    width:1.8vw;
+    height: 1.8vw;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 1vw;
+}
+
+.custom-table h4 {
+    display: inline;
+}
+
+.custom-table th, .custom-table td {
+    vertical-align: middle;
+}
+.custom-table tbody{
+    border-radius: 5vw;
+    margin: 1vw;
+    
+}
+.custom-table a {
+    text-decoration: none;
+    
+    
+    
+    
+}
+.redClasssEl{
+    color: red;
+    font-weight: bold;
+}
+.greenClasssEl{
+    color: #3dc6c1;
+    font-weight: bold;
+    
+}
+.breakLine{
+    border: solid  1px #2e3241 ;
+
+}
+.footerEl1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+
+    opacity: .45;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.footer-text-link{
+   
+    opacity: .8;
+    font-weight: 500;
+    text-decoration: none;
+    
+    
+
+
+    
+}
+.footerEl2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-text{
+    margin-left: 1vw;
+}
+.breakLinew{
+    border: solid  1px #ffffff ;
+
+}
+.footterBottomsett1{
+    padding-bottom: 5vw;
+}

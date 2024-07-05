@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100vw;
+  overflow-x:hidden ;
+}
+
+.Browserrouter1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #191d28;
+  color: #ffffff;
+  .footer-text-link{
+    color: #ffffff;
+    
+  }
+}
+
+.content {
+  flex: 1;
+ overflow: auto;
+}
+
+
+.lightTheme{
+  background-color: #ffffff;
+  color: #191d28;
+  .custom-table tbody tr {
+    background-color: #f8f9fa;
+    margin: 1vw;
+  
+    
+}
+.footer-text-link{
+  color: #191d28;
+  
+}
+}
+.lightThemedropbox{
+  background-color: #ffffff;
+  color: black;
+  
+}

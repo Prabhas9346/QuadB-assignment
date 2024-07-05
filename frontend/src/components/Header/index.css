@@ -1,0 +1,252 @@
+/* Base styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  align-items: center;
+
+  
+
+}
+
+.logoPic {
+  width: 20vw;
+  margin: 1vw;
+}
+
+.selectedBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dropDownBox {
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+  width: 5vw;
+  height: 2vw;
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid transparent;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  font-weight: bold;
+}
+
+select {
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  cursor: pointer;
+}
+
+option {
+  font-weight: bold;
+  font-size: 1vw;
+  border: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #3dc6c1;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2e3241;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2e3241;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  
+}
+.timg2{
+    width: 1vw;
+    height: 1vw;
+    margin: 0.5vw;
+    
+
+}
+.telBox2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+    background-color: #3dc6c1;
+    border-radius: 1vw;
+    color: #fff;
+    padding: 0.25vw;
+    font-size: 1vw;
+    font-weight: bold;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+}
+.BoxSub2{
+    display: flex;
+    
+    padding: 1vw;
+    
+}
+.timerBox{
+    border-radius: 70%;
+    border: solid 3.5px #3dc6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3dc6c1;
+    padding: 0.5vw;
+    align-self: center;
+    
+    
+}
+.timerText{
+    font-size: 1.2vw;
+    margin: 0%;
+    font-weight: bold;
+
+}
+.lightThemedropbox{
+    background-color: #ffffff;
+    color: black;
+  }
+/* Media queries for responsiveness */
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logoPic {
+    width: 40vw;
+    margin: 2vw;
+  }
+
+  .selectedBox {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  .dropDownBox {
+    width: 25vw;
+    height: 5vw;
+    margin: 1vw 0;
+    font-size: 3vw;
+  }
+
+  select {
+    font-size: 3vw;
+  }
+
+  option {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 2vw;
+  }
+
+  .logoPic {
+    width: 50vw;
+    margin: 3vw;
+  }
+
+  
+  .dropDownBox {
+    width: 25vw;
+    height: 5vw;
+    margin: 1vw 0;
+    font-size: 3vw;
+
+  }
+
+  select {
+    font-size: 4vw;
+  }
+
+  option {
+    font-size: 3vw;
+  }
+  .lightThemedropbox{
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
